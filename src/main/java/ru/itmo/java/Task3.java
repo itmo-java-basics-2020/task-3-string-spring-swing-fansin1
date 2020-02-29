@@ -36,7 +36,8 @@ public class Task3 {
             return 0;
         }
 
-        int max1 = Integer.MIN_VALUE, max2 = Integer.MIN_VALUE;
+        int max1 = Integer.MIN_VALUE;
+        int max2 = Integer.MIN_VALUE;
 
         for (int i : inputArray) {
             if (i > max1) {
@@ -69,7 +70,7 @@ public class Task3 {
             }
         }
 
-        return (int)(count / (float)input.length() * 100);
+        return (int) (count / (float)input.length() * 100);
     }
 
     /**
