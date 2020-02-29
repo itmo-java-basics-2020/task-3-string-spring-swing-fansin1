@@ -79,7 +79,7 @@ public class Task3 {
             }
         }
 
-        return (int) (count / (float)input.length() * 100);
+        return (int) (count / (float) input.length() * 100);
     }
 
     /**
